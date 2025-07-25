@@ -1,5 +1,5 @@
 {
-    "name": "xaddax/webonyx-middleware-component",
+    "name": "zestic/webonyx-middleware-component",
     "type": "library",
     "description": "Laminas framework integration for webonyx-psr15-middleware",
     "version": "0.1.0",
@@ -30,14 +30,14 @@
     "minimum-stability": "stable",
     "autoload": {
         "psr-4": {
-            "Xaddax\\WebonyxMiddleware\\": "src/",
+            "WebonyxMiddleware\\": "src/",
             "GraphQL\\Middleware\\Config\\": "src/Config/",
             "GraphQL\\Middleware\\Context\\": "src/Context/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Xaddax\\WebonyxMiddleware\\Test\\": "tests/"
+            "WebonyxMiddleware\\Test\\": "tests/"
         }
     },
     "scripts": {

@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Xaddax\WebonyxMiddleware\Factory;
+namespace WebonyxMiddleware\Factory;
 
 use GraphQL\Middleware\Config\SchemaConfig;
 use Psr\Container\ContainerInterface;

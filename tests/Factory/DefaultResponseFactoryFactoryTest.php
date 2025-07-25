@@ -2,14 +2,14 @@
 
 declare(strict_types=1);
 
-namespace Xaddax\WebonyxMiddleware\Test\Factory;
+namespace WebonyxMiddleware\Test\Factory;
 
 use GraphQL\Middleware\Factory\DefaultResponseFactory;
 use PHPUnit\Framework\TestCase;
 use Psr\Container\ContainerInterface;
 use Psr\Http\Message\ResponseFactoryInterface;
 use Psr\Http\Message\StreamFactoryInterface;
-use Xaddax\WebonyxMiddleware\Factory\DefaultResponseFactoryFactory;
+use WebonyxMiddleware\Factory\DefaultResponseFactoryFactory;
 
 class DefaultResponseFactoryFactoryTest extends TestCase
 {

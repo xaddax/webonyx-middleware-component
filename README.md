@@ -14,7 +14,7 @@ This library provides Laminas framework integration for the [webonyx-psr15-middl
 ## Installation
 
 ```bash
-composer require xaddax/webonyx-middleware-component
+composer require zestic/webonyx-middleware-component
 ```
 
 ## Usage
@@ -24,7 +24,7 @@ composer require xaddax/webonyx-middleware-component
 ```php
 // config/modules.config.php
 return [
-    'Xaddax\\WebonyxMiddleware',
+    'WebonyxMiddleware',
     // ... other modules
 ];
 ```

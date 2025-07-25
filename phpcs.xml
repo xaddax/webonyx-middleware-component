@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
-<ruleset name="Xaddax Webonyx Middleware Component">
-    <description>PHP CodeSniffer configuration for Xaddax Webonyx Middleware Component</description>
+<ruleset name="Webonyx Middleware Component">
+    <description>PHP CodeSniffer configuration for Webonyx Middleware Component</description>
 
     <file>src</file>
     <file>tests</file>

@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Xaddax\WebonyxMiddleware;
+namespace WebonyxMiddleware;
 
 use GraphQL\Middleware\GraphQLMiddleware;
 use GraphQL\Middleware\Config\GeneratorConfig;
@@ -20,13 +20,13 @@ use GraphQL\Middleware\Generator\SimpleTemplateEngine;
 use GraphQL\Middleware\Resolver\ResolverManager;
 use GraphQL\Server\ServerConfig;
 use GraphQL\Type\Schema;
-use Xaddax\WebonyxMiddleware\Factory\DefaultResponseFactoryFactory;
-use Xaddax\WebonyxMiddleware\Factory\GeneratorConfigFactory;
-use Xaddax\WebonyxMiddleware\Factory\GraphQLMiddlewareFactory;
-use Xaddax\WebonyxMiddleware\Factory\ResolverFactoryFactory;
-use Xaddax\WebonyxMiddleware\Factory\ResolverManagerFactory;
-use Xaddax\WebonyxMiddleware\Factory\SchemaConfigFactory;
-use Xaddax\WebonyxMiddleware\Factory\ServerConfigFactory;
+use WebonyxMiddleware\Factory\DefaultResponseFactoryFactory;
+use WebonyxMiddleware\Factory\GeneratorConfigFactory;
+use WebonyxMiddleware\Factory\GraphQLMiddlewareFactory;
+use WebonyxMiddleware\Factory\ResolverFactoryFactory;
+use WebonyxMiddleware\Factory\ResolverManagerFactory;
+use WebonyxMiddleware\Factory\SchemaConfigFactory;
+use WebonyxMiddleware\Factory\ServerConfigFactory;
 
 class ConfigProvider
 {

@@ -2,12 +2,12 @@
 
 declare(strict_types=1);
 
-namespace Xaddax\WebonyxMiddleware\Test\Factory;
+namespace WebonyxMiddleware\Test\Factory;
 
 use GraphQL\Middleware\Factory\ResolverFactory;
 use PHPUnit\Framework\TestCase;
 use Psr\Container\ContainerInterface;
-use Xaddax\WebonyxMiddleware\Factory\ResolverFactoryFactory;
+use WebonyxMiddleware\Factory\ResolverFactoryFactory;
 
 class ResolverFactoryFactoryTest extends TestCase
 {

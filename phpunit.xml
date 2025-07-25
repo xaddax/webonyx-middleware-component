@@ -9,7 +9,7 @@
          failOnRisky="true"
          failOnWarning="true">
     <testsuites>
-        <testsuite name="Xaddax Webonyx Middleware Component Test Suite">
+        <testsuite name="Webonyx Middleware Component Test Suite">
             <directory>tests</directory>
         </testsuite>
     </testsuites>

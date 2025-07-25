@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Xaddax\WebonyxMiddleware\Factory;
+namespace WebonyxMiddleware\Factory;
 
 use GraphQL\Middleware\Factory\ResolverFactory;
 use GraphQL\Middleware\Resolver\ResolverManager;

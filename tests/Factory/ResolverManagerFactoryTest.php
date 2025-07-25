@@ -2,13 +2,13 @@
 
 declare(strict_types=1);
 
-namespace Xaddax\WebonyxMiddleware\Test\Factory;
+namespace WebonyxMiddleware\Test\Factory;
 
 use GraphQL\Middleware\Factory\ResolverFactory;
 use GraphQL\Middleware\Resolver\ResolverManager;
 use PHPUnit\Framework\TestCase;
 use Psr\Container\ContainerInterface;
-use Xaddax\WebonyxMiddleware\Factory\ResolverManagerFactory;
+use WebonyxMiddleware\Factory\ResolverManagerFactory;
 
 class ResolverManagerFactoryTest extends TestCase
 {

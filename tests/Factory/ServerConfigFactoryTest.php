@@ -2,13 +2,13 @@
 
 declare(strict_types=1);
 
-namespace Xaddax\WebonyxMiddleware\Test\Factory;
+namespace WebonyxMiddleware\Test\Factory;
 
 use GraphQL\Server\ServerConfig;
 use GraphQL\Type\Schema;
 use PHPUnit\Framework\TestCase;
 use Psr\Container\ContainerInterface;
-use Xaddax\WebonyxMiddleware\Factory\ServerConfigFactory;
+use WebonyxMiddleware\Factory\ServerConfigFactory;
 
 class ServerConfigFactoryTest extends TestCase
 {
